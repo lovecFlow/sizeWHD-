@@ -1,0 +1,5 @@
+func GetSize(w,h,d int) [2]int {
+    area := (2 * (h * w)) + (2 * (h * d)) + (2 * (d * w)) 
+    volume := w * h * d
+    return [2]int{area, volume}
+}
